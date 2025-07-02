@@ -41,7 +41,7 @@ export default function MateriaPage({ params }: { params: { slug: string } }) {
     <main
       className="min-h-screen p-8 bg-cover bg-center"
       style={{
-        backgroundImage: 'url("https://i.imgur.com/nKv7ahZ.jpeg")', // Altere para o link da sua imagem de fundo
+        backgroundImage: 'url("https://i.imgur.com/nKv7ahZ.jpeg")',
       }}
     >
       <div className="bg-white/80 backdrop-blur-sm p-6 rounded-2xl shadow-lg max-w-6xl mx-auto">
@@ -99,7 +99,7 @@ export default function MateriaPage({ params }: { params: { slug: string } }) {
             ))
           ) : (
             <p className="text-gray-500 text-center col-span-full">
-              Nenhum conteúdo encontrado para "{tipoSelecionado}".
+              Nenhum conteúdo encontrado para &quot;{tipoSelecionado}&quot;.
             </p>
           )}
         </div>
